@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5aec61db5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO LIST</title>
+</head>
+<body>
+    <div id="todo-container">
+        <div class="input-todo">
+            <div class="input-todo-form">
+                <i class="fa-solid fa-file-circle-check"></i>
+                <input type="text" name="" id="add-task" placeholder="Type your todo list">
+                <i class="fa-solid fa-circle-plus" id="add-icon"></i>
+            </div>
+            <div class="desc">
+                <p id="all-complete">
+                    <i class="fa-solid fa-check-double"></i>
+                    Complete all tasks
+                </p>
+                <p id="clear-completed">Clear completed</p>
+            </div>
+        </div>
+        <div class="todo-show">
+            <ul id="list">
+                <!-- <li>
+                    <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+                    <label for="task1">Buy groceries</label>
+                    <i class="fa-regular fa-circle-xmark delete"></i>
+                </li> -->
+            </ul>
+        </div>
+        <div class="todo-footer">
+            <div class="footer-desc">
+                <p>
+                    <span id="tasks-counter">3</span> 
+                    task left
+                </p>
+                <div class="footer-link">
+                    <a href="">All</a>
+                    <a href="">Uncompleted</a>
+                    <a href="">Completed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
